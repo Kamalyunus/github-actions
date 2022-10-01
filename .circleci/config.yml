@@ -11,7 +11,7 @@ jobs:
   build-and-test: # This is the name of the job, feel free to change it to better match what you're trying to do!
     docker:
       - image: cimg/python:3.10.2
-    resource_class: medium
+    resource_class: small
     steps:
       - checkout
       - python/install-packages:
